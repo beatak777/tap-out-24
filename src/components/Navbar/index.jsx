@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React, { useState, useEffect } from 'react';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 // Reusable component for NavDropdown.Item with logo
 const NavItemWithLogo = ({ href, title, logoText }) => {
@@ -26,7 +23,7 @@ function shuffleArray(array) {
 }
 
 function MyNav() {
-  const [dropdownItems, setDropdownItems] = useState([
+  const initialDropdownItems = [
     { href: './thewake', title: 'The Wake', logoText: 'TW' },
     { href: './symposium', title: 'Symposium', logoText: 'SY' },
     { href: './theconvo', title: 'The Convo', logoText: 'TC' },
@@ -42,12 +39,14 @@ function MyNav() {
     { href: './deathofanidealist', title: 'Death Of An Idealist', logoText: 'DI' },
     { href: './threadsofeternity', title: 'Threads Of Eternity', logoText: 'TE' },
     { href: './lovelylabels', title: 'Lovely Labels', logoText: 'LL' },
-  ]);
+  ];
 
-  const handleDropdownClick = () => {
-    const shuffledItems = shuffleArray(dropdownItems);
-    setDropdownItems(shuffledItems);
-  };
+  const [dropdownItems, setDropdownItems] = useState(initialDropdownItems);
+
+  useEffect(() => {
+    // Shuffle dropdown items when component mounts
+    setDropdownItems(shuffleArray(initialDropdownItems));
+  }, []); // Empty dependency array ensures effect runs only once on component mount
 
   return (
     <Navbar expand="lg" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -60,14 +59,10 @@ function MyNav() {
             <Nav.Link href="./about">About</Nav.Link>
             <Nav.Link href="./contact">Contact</Nav.Link>
             <Nav.Link href="./tickets">Tickets</Nav.Link>
-            <NavDropdown title="Programme" id="basic-nav-dropdown" onClick={handleDropdownClick}>
+            <NavDropdown title="Programme" id="basic-nav-dropdown">
               {dropdownItems.map((item, index) => (
                 <NavItemWithLogo key={index} href={item.href} title={item.title} logoText={item.logoText} />
               ))}
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="./fullprogramme">
-                Full Programme
-              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="./fullprogramme">Full Programme</Nav.Link>
           </Nav>
@@ -78,3 +73,4 @@ function MyNav() {
 }
 
 export default MyNav;
+
