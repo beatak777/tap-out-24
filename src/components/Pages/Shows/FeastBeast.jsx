@@ -1,0 +1,32 @@
+import React from 'react';
+
+const FeastBeast = () => {
+  // Define the URL of the placeholder image for Feast Beast
+  const placeholderImageUrl = 'https://via.placeholder.com/800x600'; // Example placeholder image URL
+
+  return (
+    <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
+      <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>Feast Beast</h1>
+      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>By Call for Anatomy</h2>
+
+      <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+        {/* Display the placeholder image from the online source */}
+        <img src={placeholderImageUrl} alt="Placeholder" style={{ maxWidth: '100%', height: 'auto' }} />
+      </div>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
+        A special sensory experience.
+        <p style={{ textAlign: 'justify', lineHeight: '1.6' }}></p>
+        Call for Anatomy refers to Yujie Wang, a solo performance artist and costume designer is performing to portray a critique against animal testing’s cruelty, valuing humans over animals. In order to evoke or awaken the audience’s empathy, whether pity or disgust towards animals’ mistreatment in labs and factories, Call for Anatomy explores the limits of transformation between human and animal bodies. 
+
+
+      </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+      Feast Beast is a boundary-breaking piece that creates the possibility of touching people's hearts through immersive interaction between actors and audience. This piece by Call for Anatomy uses sound and images to create a visual aesthetic hinting at a form of disturb or violence not suitable for all audiences, through a subtle yet aggressive style.
+      </p>
+    </div>
+  );
+};
+
+export default FeastBeast;
