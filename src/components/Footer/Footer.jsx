@@ -6,7 +6,9 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
+          <p style={{ fontSize: '11px', margin: '0' }}>
             Goldsmiths Theatre and Performance + Performance, Politics and Society Year 2024
+            </p>
           </div>
         </div>
       </div>
