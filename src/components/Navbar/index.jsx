@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,10 +16,42 @@ const NavItemWithLogo = ({ href, title, logoText }) => {
   );
 };
 
+function shuffleArray(array) {
+  const shuffledArray = [...array];
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+  }
+  return shuffledArray;
+}
+
 function MyNav() {
+  const [dropdownItems, setDropdownItems] = useState([
+    { href: './thewake', title: 'The Wake', logoText: 'TW' },
+    { href: './symposium', title: 'Symposium', logoText: 'SY' },
+    { href: './theconvo', title: 'The Convo', logoText: 'TC' },
+    { href: './boysandtoys', title: 'Boys + Toys', logoText: 'BT' },
+    { href: './energiserevitaliselobotomise', title: 'Energise, Revitalise, Lobotomise', logoText: 'ERL' },
+    { href: './frustration', title: 'Frustration', logoText: 'FR' },
+    { href: './bluebottle', title: 'Blue Bottle', logoText: 'BB' },
+    { href: './fckyou', title: 'F*ck You!', logoText: 'FU' },
+    { href: './who', title: '我/Who', logoText: 'W' },
+    { href: './caseaffliction', title: 'Case Affliction', logoText: 'CA' },
+    { href: './theeutony', title: 'The Eutony', logoText: 'TE' },
+    { href: './feastbeast', title: 'Feast Beast', logoText: 'FB' },
+    { href: './deathofanidealist', title: 'Death Of An Idealist', logoText: 'DI' },
+    { href: './threadsofeternity', title: 'Threads Of Eternity', logoText: 'TE' },
+    { href: './lovelylabels', title: 'Lovely Labels', logoText: 'LL' },
+  ]);
+
+  const handleDropdownClick = () => {
+    const shuffledItems = shuffleArray(dropdownItems);
+    setDropdownItems(shuffledItems);
+  };
+
   return (
     <Navbar expand="lg" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <Container className="d-flex flex-column align-items-center"> {/* Add flexbox utilities */}
+      <Container className="d-flex flex-column align-items-center">
         <Navbar.Brand href="#">TAP OUT 24'</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -28,27 +60,16 @@ function MyNav() {
             <Nav.Link href="./about">About</Nav.Link>
             <Nav.Link href="./contact">Contact</Nav.Link>
             <Nav.Link href="./tickets">Tickets</Nav.Link>
-            <NavDropdown title="Programme" id="basic-nav-dropdown">
-              <NavItemWithLogo href="./thewake" title="The Wake" logoText="TW" />
-              <NavItemWithLogo href="./symposium" title="Symposium" logoText="SY" />
-              <NavItemWithLogo href="./theconvo" title="The Convo" logoText="TC" />
-              <NavItemWithLogo href="./boysandtoys" title="Boys + Toys" logoText="BT" />
-              <NavItemWithLogo href="./energiserevitaliselobotomise" title="Energise, Revitalise, Lobotomise" logoText="ERL" />
-              <NavItemWithLogo href="./frustration" title="Frustration" logoText="FR" />
-              <NavItemWithLogo href="./bluebottle" title="Blue Bottle" logoText="BB" />
-              <NavItemWithLogo href="./fckyou" title="F*ck You!" logoText="FU" />
-              <NavItemWithLogo href="./who" title="我/Who" logoText="W" />
-              <NavItemWithLogo href="./caseaffliction" title="Case Affliction" logoText="CA" />
-              <NavItemWithLogo href="./theeutony" title="The Eutony" logoText="TE" />
-              <NavItemWithLogo href="./feastbeast" title="Feast Beast" logoText="FB" />
-              <NavItemWithLogo href="./deathofanidealist" title="Death Of An Idealist" logoText="DI" />
-              <NavItemWithLogo href="./threadsofeternity" title="Threads Of Eternity" logoText="TE" />
-              <NavItemWithLogo href="./lovelylabels" title="Lovely Labels" logoText="LL" />
+            <NavDropdown title="Programme" id="basic-nav-dropdown" onClick={handleDropdownClick}>
+              {dropdownItems.map((item, index) => (
+                <NavItemWithLogo key={index} href={item.href} title={item.title} logoText={item.logoText} />
+              ))}
               <NavDropdown.Divider />
               <NavDropdown.Item href="./fullprogramme">
-                Full Programme 
+                Full Programme
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="./fullprogramme">Full Programme</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

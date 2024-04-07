@@ -1,30 +1,35 @@
+/* Apply mobile-first approach */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 #root {
   max-width: 1280px;
-  margin: 20px auto;
-  padding: 10rem;
-  text-align: center;
+  margin: 10px auto;
+  padding: 4rem;
+  box-sizing: border-box; /* Ensure padding is included in the max-width */
+text-align: center;
 }
 
 .read-the-docs {
   color: #888;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 .hero-section img {
-  width: 7000px; /* Adjust the width as needed */
+  max-width: 100%; /* Ensure images are responsive */
   height: auto; /* Maintain aspect ratio */
 }
+
 .full-programme-container {
-  padding: 20px;
+  padding: 1rem;
 }
 
 .show-grid {
   display: grid;
   grid-gap: 20px; /* Spacing between grid items */
+  grid-template-columns: 1fr; /* Single column by default */
 
   /* Media query for tablets */
   @media (min-width: 768px) {
@@ -44,14 +49,9 @@ body {
 
 .show-card {
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
   border: 1px solid #ccc;
   margin-bottom: 20px; /* Add margin between show cards */
-
-  /* Media query for mobile */
-  @media (max-width: 767px) {
-    width: 100%; /* Full width for mobile */
-  }
 }
 
 .show-card h2 {
@@ -60,14 +60,22 @@ body {
 
 /* Adjust dropdown menu styles for mobile */
 @media (max-width: 767px) {
+  .navbar-nav {
+    flex-direction: column; /* Stack nav items vertically */
+  }
+
+  .navbar-collapse {
+    text-align: center; /* Center align navbar items */
+  }
+
   .dropdown-menu {
-    max-height: 70vh; /* Set maximum height based on viewport height */
+    max-height: calc(100vh - 120px); /* Set maximum height based on viewport height minus header/footer heights */
     overflow-y: auto; /* Enable vertical scrolling */
     z-index: 1000; /* Ensure dropdown menu is above other content */
   }
 }
 
 .dropdown-menu {
-  max-height: 600px; /* Set a maximum height for the dropdown menu */
-  overflow-y: scroll; /* Enable vertical scrolling */
+  max-height: 400px; /* Set a maximum height for the dropdown menu */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
