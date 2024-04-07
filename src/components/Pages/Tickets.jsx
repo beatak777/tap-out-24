@@ -5,6 +5,9 @@ const Tickets = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handlePurchaseClick = () => {
+    // Open Ticket Tailor link in a new tab
+    window.open('https://buytickets.at/goldsmithstapoutfestival2024/1217907', '_blank');
+    // Show modal after redirecting (optional)
     setShowModal(true);
   };
 
@@ -40,4 +43,5 @@ const Tickets = () => {
 };
 
 export default Tickets;
+
 
