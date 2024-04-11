@@ -31,7 +31,7 @@ const FullProgramme = () => {
     { 
       title: 'F*ck You!', 
       path: '/fckyou', 
-      imageUrl: 'URL_TO_FCK_YOU_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FuckYouImage.a071790b.png' 
     },
     { 
       title: 'Frustration', 
@@ -51,7 +51,7 @@ const FullProgramme = () => {
     { 
       title: 'Case Affliction', 
       path: '/caseaffliction', 
-      imageUrl: 'URL_TO_CASE_AFFLICTION_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/CaseAfflictionImage.6f627ec2.png' 
     },
     { 
       title: 'The Eutony', 
