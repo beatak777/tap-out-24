@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import MapLocationImage from '../../assets/MapLocationImage.png'; // Import the map location image
 
 const Contact = () => {
   const [instagramImages, setInstagramImages] = useState([]);
@@ -14,8 +15,6 @@ const Contact = () => {
       'https://via.placeholder.com/400x400',
       'https://via.placeholder.com/400x400',
       'https://via.placeholder.com/400x400',
-   
-      
     ];
     setInstagramImages(images);
   };
@@ -40,7 +39,7 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="https://lh3.googleusercontent.com/pw/AP1GczPxFWXBeNFFX-hVQT1SaFTy4R0qiocATxj-NTbuDAhUg9BufldnaYSInD84A7_NS2gBBQh2_KepNXWtfg1jl9aZRw3MkhPz8wYlrPhfx3-4MVYfQqbLFcxDkqpRQfOAnUZzBJ80oWz4aPJTJRQVY3JQsQbtgtNQivwYWqEbL43iEP-XHqO7iCoR4gYW7EsHLQK3NWLUwbM1jIoYv20jGnoaTtugecR4vqL-CUU2HiC970H4CALvtWGlrm8KQSy7SabEYLMokEiTPrutc2aecWUPniUCwDpOqaQka853057K5s8s-1o4eQhkMO-DPyi6daoxhRXoyWSsnWwrljfJhP-gvjOXThrAvslFbmglULQgaQ6ke2QPWFpWkemYiMPT0Wx-iW3p_HU0NcmZJ0sqXHwy5WbziGBuVcc4WXnRebZgV3QU5EcM7c6DbTHgxlVBrzB70rb_os9b4Cyy7MoSd9HIB98kzU3dKuryxpQ6DqAz0ofLroKcphmsidu5hH8rXUy7R7IdCBFniZn_YsNsGo-JSWmpWiXwq4ZnLyxNhBMJ1dc97ajfsPQ1d4SirOMfiDddtDslaa1G9vRv-nnPXytGSfvo8Fud3IgE3wV6VqL2t3lWlG2CmvuFoADWFqu5vCsTkR6dF5p1Gnd6zfY8jI3E79s9U6LHDEzfChZsbf1Prv82kRYmXHtzA6WOHPMIQyQ5trJxYMZb1oJuFslj38lH9Q1KZI7ORyuBr6JDTSJqL7tHtYxNz9V8NaMOVexAwdRTUhf7pHGIViuNJx2EqH_-cY0xTQzEKtxQFhtI1gKJrt-2C33DGFSWmax0dsIbhuWz-BudG2ltg8w9vTSXFqNqfAd4CYhY90L-PD4omHpN7TdJwTSLgvdl-YFYEk1ElIViLy7M1ueALhtDWUQhM5xDfKX4Jom9WaCPtOBzWL-7f_W-wIuYXcn6fCMQIV9ZQXsHbt1V1o7A_F4yRqiYxJXbAqMol8NY-EpiztAErR3xIU1smwM4Wmc1kQJ5MauU=w2808-h1130-s-no-gm?authuser=3" // Replace with your map image URL
+              src={MapLocationImage} // Use the imported map location image
               alt="Location Map"
               className="img-fluid rounded"
               style={{ width: '100%' }}
@@ -81,7 +80,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
-
-
