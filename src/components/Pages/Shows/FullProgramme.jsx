@@ -71,7 +71,7 @@ const FullProgramme = () => {
     { 
       title: 'Threads of Eternity', 
       path: '/threadsofeternity', 
-      imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczOqxaKVCTaB09l1gpo-jb9ksBdvvt_LRrIBjNaCygT0dswdzD7qL7lWKUPY_Go80cr_wfzg7GhQv6c7a0EjSkomkLjk7YH5O_XxRfJjpVI-jbf9glRcq-bAVNouPAPDnjhSn4aZ2kNfow-2ejrKGqeeWHnPkXwEUoGLC7gCHvRPY_oZBufeY-gjsSj6qebd5i_WPCHGVejc57fujtgz9BBgyAdHkxQQoJnv51NmC45-EtXafKqi8rWDyxM3U3o0vGAxZhQp3Xn8dNUW6eGZsV26uGLpq4jYV6K-U3QyAsQtDKmqDYeVzBfcxp1OQnhWB901qy-eOGM1iBz3VViKMH0Il5ZQisYj4_E6W-oamqt-iJg9XjPhwgBHIwW793qKwTqHu3Xh03TAj6AeyjQcH8fIJav_Jyn1FS9dchNtCl9gmV71DScnElNhunvNjAIY0YGxWQnlQMZXVjMB7bj35Rc_OYgzKr_DcuMPyMScm450MCSfBdU6c-M9MqCIa2piepybSC9O5-lnYxA8XOuJrfLvPtlU5Bq00vIIIrjv8YgB6afktW5peANz3Pz8KvP6rUUQKRF04dQRSFUm8Y9P7HuKzCw1YSiaH3-wGNct2KB-PM3esKA2MuR5q__ZJftvAPoTmxtZCyMJ4l5mqBbgV3OzyGTJ_cIacZCd5GUbL4QE6SWB8r_3wgjDa5NIesW3HVrsvXVAV54AotcSF0Gcu7nz9-dXAGgDaOBE33lf_HpphxP2_nrelr_gMbvXAFuxUSq7ixb5VG2tzc1ETVZgYK-to8--AOz2vatFVRPap2MBd-kKe3Ju8-OO68LCZ5dKN7fRfhBDGlOzvVAvTX5LtCq29RDh0Ig9b3QOKfGCMU7ty5c7YaeDo2rg0IJ8j89p8k-B13pEvNuImhym1D9Udf35vC2P3qg7whSEn69EhDpiqlV-cCiF6ZJQ8OvlvDpWFdny1PF0208ZstKCvDjZOHIMfFhFK7ExyvqRgjt5S0GP1XwMCHJkQUprbUulTuRDOA=w982-h1390-s-no-gm?authuser=3' 
+      imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNFj5i_DDDrCsPfhMEDGliKtd4SObMNv2AlnY_2nRy3pIIOS24EXwkw66q-SlAbJkPXiN1N4BLqYs76eqGuvEvSrya3Ds4Wb4WtGNe_nIFKm1B_eK2c22Dntzwlq_H_UoO9QXkUlh4HR3oc57QPLcw=w982-h1390-s-no-gm?authuser=0' 
     },
     { 
       title: 'Lovely Labels', 

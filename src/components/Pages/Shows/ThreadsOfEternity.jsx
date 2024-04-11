@@ -1,17 +1,14 @@
 import React from 'react';
-
+import ThreadsOfEternityImage from '../../../../src/assets/posters/ThreadsOfEternityImage.png'; 
 const ThreadsOfEternity = () => {
-  // Updated image URL for "Threads of Eternity"
-  const imageUrl = 'https://lh3.googleusercontent.com/pw/AP1GczNFj5i_DDDrCsPfhMEDGliKtd4SObMNv2AlnY_2nRy3pIIOS24EXwkw66q-SlAbJkPXiN1N4BLqYs76eqGuvEvSrya3Ds4Wb4WtGNe_nIFKm1B_eK2c22Dntzwlq_H_UoO9QXkUlh4HR3oc57QPLcw=w982-h1390-s-no-gm?authuser=0';
-
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>Threads of Eternity</h1>
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>By Beata Konya</h2>
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        {/* Display the updated image */}
-        <img src={imageUrl} alt="Threads of Eternity" style={{ maxWidth: '100%', height: 'auto' }} />
+        {/* Use the imported image as the source */}
+        <img src={ThreadsOfEternityImage} alt="Threads of Eternity" style={{ maxWidth: '100%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
