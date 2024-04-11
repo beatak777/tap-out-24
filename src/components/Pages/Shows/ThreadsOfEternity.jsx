@@ -1,5 +1,6 @@
 import React from 'react';
 import ThreadsOfEternityImage from '../../../../src/assets/posters/ThreadsOfEternityImage.png'; 
+
 const ThreadsOfEternity = () => {
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
