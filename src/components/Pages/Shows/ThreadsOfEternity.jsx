@@ -1,8 +1,8 @@
 import React from 'react';
 
 const ThreadsOfEternity = () => {
-  // Define the URL of the placeholder image for "Threads of Eternity"
-  const placeholderImageUrl = 'https://via.placeholder.com/800x600'; // Example placeholder image URL
+  // Updated image URL for "Threads of Eternity"
+  const imageUrl = 'https://lh3.googleusercontent.com/pw/AP1GczNFj5i_DDDrCsPfhMEDGliKtd4SObMNv2AlnY_2nRy3pIIOS24EXwkw66q-SlAbJkPXiN1N4BLqYs76eqGuvEvSrya3Ds4Wb4WtGNe_nIFKm1B_eK2c22Dntzwlq_H_UoO9QXkUlh4HR3oc57QPLcw=w982-h1390-s-no-gm?authuser=0';
 
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
@@ -10,8 +10,8 @@ const ThreadsOfEternity = () => {
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>By Beata Konya</h2>
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        {/* Display the placeholder image from the online source */}
-        <img src={placeholderImageUrl} alt="Placeholder" style={{ maxWidth: '100%', height: 'auto' }} />
+        {/* Display the updated image */}
+        <img src={imageUrl} alt="Threads of Eternity" style={{ maxWidth: '100%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
@@ -24,4 +24,3 @@ const ThreadsOfEternity = () => {
 };
 
 export default ThreadsOfEternity;
-
