@@ -29,7 +29,7 @@ function MyNav() {
     { href: './boysandtoys', title: 'Boys + Toys', imageUrl: '' },
     { href: './energiserevitaliselobotomise', title: 'Energise, Revitalise, Lobotomise', imageUrl: '' },
     { href: './frustration', title: 'Frustration', imageUrl: '' },
-    { href: './bluebottle', title: 'Blue Bottle', imageUrl: '' },
+    { href: './bluebottle', title: 'Blue Bottle', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BlueBottleImage.770e69fc.png' },
     { href: './fckyou', title: 'F*ck You!', imageUrl: '' },
     { href: './who', title: '我/Who', imageUrl: '' },
     { href: './caseaffliction', title: 'Case Affliction', imageUrl: '' },
