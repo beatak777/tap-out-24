@@ -16,7 +16,7 @@ const FullProgramme = () => {
     { 
       title: 'The Convo', 
       path: '/theconvo', 
-      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/TheConvoImage.fd1053c6.png' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/TheConvoImage.e908d68d.png' 
     },
     { 
       title: 'Boys & Toys', 

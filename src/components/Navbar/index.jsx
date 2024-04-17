@@ -25,7 +25,7 @@ function MyNav() {
   const initialDropdownItems = [
     { href: './thewake', title: 'The Wake', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/WakeImage.21ab465f.png' },
     { href: './symposium', title: 'Symposium', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/SymposiumImage.1953acf2.png' },
-    { href: './theconvo', title: 'The Convo', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/TheConvoImage.fd1053c6.png' },
+    { href: './theconvo', title: 'The Convo', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/TheConvoImage.e908d68d.png' },
     { href: './boysandtoys', title: 'Boys + Toys', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BoysAndToysImage.19084753.png' },
     { href: './energiserevitaliselobotomise', title: 'Energise, Revitalise, Lobotomise', imageUrl: '' },
     { href: './frustration', title: 'Frustration', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FrustrationImage.856c4f9e.png' },
