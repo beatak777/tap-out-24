@@ -4,7 +4,7 @@ import comingGif from '../../assets/hero/coming.gif';
 const Home = () => {
   return (
     <div className="hero-section text-center">
-      <h1 className="mb-4"> Coming Soon...</h1>
+      <h1 className="mb-4"> </h1>
       <img src={comingGif} alt="Coming GIF" className="img-fluid" />
       <div className="mt-4">
         <p>
