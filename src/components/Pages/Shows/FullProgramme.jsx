@@ -6,7 +6,7 @@ const FullProgramme = () => {
     { 
       title: 'The Wake', 
       path: '/thewake', 
-      imageUrl: 'URL_TO_THE_WAKE_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/WakeImage.21ab465f.png' 
     },
     { 
       title: 'Symposium', 
