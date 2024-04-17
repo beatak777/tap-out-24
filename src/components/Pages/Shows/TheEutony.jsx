@@ -1,17 +1,15 @@
 import React from 'react';
+import EutonyImage from '../../../../src/assets/posters/EutonyImage.png';
 
 const TheEutony = () => {
-  // Define the URL of the placeholder image
-  const placeholderImageUrl = 'https://via.placeholder.com/800x600'; // Example placeholder image URL
-
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>The Eutony</h1>
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>By Covet Collective</h2>
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        {/* Display the placeholder image from the online source */}
-        <img src={placeholderImageUrl} alt="Placeholder" style={{ maxWidth: '100%', height: 'auto' }} />
+        {/* Display the image imported from the local folder */}
+        <img src={EutonyImage} alt="The Eutony" style={{ maxWidth: '100%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
@@ -25,8 +23,6 @@ const TheEutony = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         The Eutony is a collaboratively devised piece centered around a microwave to reflect moments of tension in a relationship. A microwave is a liminal space, a place where time feels distinct, and the third performer in our piece. The style we have created utilizes surrealism, symbolism, and liveness; mirroring the poetics of Kae Tempest, the experimental nature of the Land of Cards, and the fragmentary style of Melancholy Play. Covet Collective is interested in creating work that amplifies themes of intimacy, liminality, and viscerality. We use anti-logic and feeling-driven devising to create and develop characters that feel uncomfortable to witness yet relatable in nature.
       </p>
-
-      
     </div>
   );
 };

@@ -1,17 +1,15 @@
 import React from 'react';
+import TheConvoImage from '../../../../src/assets/posters/TheConvoImage.png';
 
 const TheConvo = () => {
-  // Define the URL of the placeholder image
-  const placeholderImageUrl = 'https://via.placeholder.com/800x600'; // Example placeholder image URL
-
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>The Convo</h1>
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>By HER</h2>
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        {/* Display the placeholder image from the online source */}
-        <img src={placeholderImageUrl} alt="Placeholder" style={{ maxWidth: '100%', height: 'auto' }} />
+        {/* Display the image imported from the local folder */}
+        <img src={TheConvoImage} alt="The Convo" style={{ maxWidth: '100%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>

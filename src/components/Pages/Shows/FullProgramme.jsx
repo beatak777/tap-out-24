@@ -21,7 +21,7 @@ const FullProgramme = () => {
     { 
       title: 'Boys & Toys', 
       path: '/boysandtoys', 
-      imageUrl: 'URL_TO_BOYS_TOYS_IMAGE' 
+      imageUrl: '' 
     },
     { 
       title: 'Energize, Revitalize, Lobotomize', 
