@@ -12,7 +12,7 @@ const About = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-8 offset-md-2">
-          <h1 className="text-center mb-4">TAPOUT24'</h1>
+          <h1 className="text-center mb-4">TAPOUT'24</h1>
           <p style={paragraphStyle}>
             Tap Out Festival is an annual showcase that celebrates the culmination of the Goldsmiths Theatre & Performance Degree program. The festival highlights the creative achievements and talents of final year students, presenting a diverse range of innovative and thought-provoking performances.
           </p>
