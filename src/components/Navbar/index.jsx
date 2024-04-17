@@ -31,13 +31,13 @@ function MyNav() {
     { href: './frustration', title: 'Frustration', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FrustrationImage.856c4f9e.png' },
     { href: './bluebottle', title: 'Blue Bottle', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BlueBottleImage.9d0fd037.png' },
     { href: './fckyou', title: 'F*ck You!', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FuckYouImage.a071790b.png' },
-    { href: './who', title: '我/Who', imageUrl: '' },
+    { href: './who', title: '我/Who', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/WhoImage.f653abfe.png' },
     { href: './caseaffliction', title: 'Case Affliction', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/CaseAfflictionImage.6f627ec2.png' },
     { href: './theeutony', title: 'The Eutony', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/EutonyImage.2bc789f1.png' },
     { href: './feastbeast', title: 'Feast Beast', imageUrl: '' },
     { href: './deathofanidealist', title: 'Death Of An Idealist', imageUrl: '' },
     { href: './threadsofeternity', title: 'Threads Of Eternity', imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNFj5i_DDDrCsPfhMEDGliKtd4SObMNv2AlnY_2nRy3pIIOS24EXwkw66q-SlAbJkPXiN1N4BLqYs76eqGuvEvSrya3Ds4Wb4WtGNe_nIFKm1B_eK2c22Dntzwlq_H_UoO9QXkUlh4HR3oc57QPLcw=w982-h1390-s-no-gm?authuser=0' },
-    { href: './lovelylabels', title: 'Lovely Labels', imageUrl: '' },
+    { href: './lovelylabels', title: 'Lovely Labels', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/LovelyLabelsImage.f017caf6.png' },
   ];
 
   const [dropdownItems, setDropdownItems] = useState(initialDropdownItems);

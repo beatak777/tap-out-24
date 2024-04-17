@@ -46,7 +46,7 @@ const FullProgramme = () => {
     { 
       title: '我/who', 
       path: '/who', 
-      imageUrl: 'URL_TO_WHO_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/WhoImage.f653abfe.png' 
     },
     { 
       title: 'Case Affliction', 
@@ -76,7 +76,7 @@ const FullProgramme = () => {
     { 
       title: 'Lovely Labels', 
       path: '/lovelylabels', 
-      imageUrl: 'URL_TO_LOVELY_LABELS_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/LovelyLabelsImage.f017caf6.png' 
     }
   ];
 
