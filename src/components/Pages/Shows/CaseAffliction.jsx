@@ -9,7 +9,7 @@ const CaseAffliction = () => {
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
         {/* Display the imported image */}
-        <img src={CaseAfflictionImage} alt="Case Affliction" style={{ maxWidth: '100%', height: 'auto' }} />
+        <img src={CaseAfflictionImage} alt="Case Affliction" style={{ maxWidth: '45%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>

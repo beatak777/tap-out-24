@@ -9,7 +9,7 @@ const Fckyou = () => {
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
         {/* Display the imported image */}
-        <img src={FuckYouImage} alt="F*ck You!" style={{ maxWidth: '100%', height: 'auto' }} />
+        <img src={FuckYouImage} alt="F*ck You!" style={{ maxWidth: '45%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>

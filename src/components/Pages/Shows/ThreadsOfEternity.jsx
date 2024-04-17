@@ -9,7 +9,7 @@ const ThreadsOfEternity = () => {
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
         {/* Use the imported image as the source */}
-        <img src={ThreadsOfEternityImage} alt="Threads of Eternity" style={{ maxWidth: '100%', height: 'auto' }} />
+        <img src={ThreadsOfEternityImage} alt="Threads of Eternity" style={{ maxWidth: '45%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>

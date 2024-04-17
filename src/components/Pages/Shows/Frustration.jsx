@@ -9,7 +9,7 @@ const Frustration = () => {
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
         {/* Display the image imported from the local folder */}
-        <img src={FrustrationImage} alt="Frustration" style={{ maxWidth: '100%', height: 'auto' }} />
+        <img src={FrustrationImage} alt="Frustration" style={{ maxWidth: '45%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>

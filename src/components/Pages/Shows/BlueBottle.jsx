@@ -9,7 +9,7 @@ const BlueBottle = () => {
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
         {/* Use the imported image as the source */}
-        <img src={BlueBottleImage} alt="Blue Bottle" style={{ maxWidth: '100%', height: 'auto' }} />
+        <img src={BlueBottleImage} alt="Blue Bottle" style={{ maxWidth: '45%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
