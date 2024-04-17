@@ -50,7 +50,7 @@ function MyNav() {
   return (
     <Navbar expand="lg" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <Container className="d-flex flex-column align-items-center">
-        <Navbar.Brand href="#">TAP OUT 24'</Navbar.Brand>
+        <Navbar.Brand href="#">TAP OUT '24</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
