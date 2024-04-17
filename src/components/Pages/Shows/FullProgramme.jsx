@@ -11,17 +11,17 @@ const FullProgramme = () => {
     { 
       title: 'Symposium', 
       path: '/symposium', 
-      imageUrl: 'URL_TO_SYMPOSIUM_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/SymposiumImage.1953acf2.png' 
     },
     { 
       title: 'The Convo', 
       path: '/theconvo', 
-      imageUrl: 'URL_TO_THE_CONVO_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/TheConvoImage.fd1053c6.png' 
     },
     { 
       title: 'Boys & Toys', 
       path: '/boysandtoys', 
-      imageUrl: '' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BoysAndToysImage.19084753.png' 
     },
     { 
       title: 'Energize, Revitalize, Lobotomize', 
@@ -36,12 +36,12 @@ const FullProgramme = () => {
     { 
       title: 'Frustration', 
       path: '/frustration', 
-      imageUrl: 'URL_TO_FRUSTRATION_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FrustrationImage.856c4f9e.png' 
     },
     { 
       title: 'Blue Bottle', 
       path: '/bluebottle', 
-      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BlueBottleImage.770e69fc.png' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BlueBottleImage.9d0fd037.png' 
     },
     { 
       title: '我/who', 
@@ -56,7 +56,7 @@ const FullProgramme = () => {
     { 
       title: 'The Eutony', 
       path: '/theeutony', 
-      imageUrl: 'URL_TO_THE_EUTONY_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/EutonyImage.2bc789f1.png' 
     },
     { 
       title: 'Feast Beast', 
