@@ -1,23 +1,22 @@
 import React from 'react';
+import WhoImage from '../../../../src/assets/posters/WhoImage.png';
 
 const Who = () => {
-  // Define the URL of the placeholder image for 我/Who
-  const placeholderImageUrl = 'https://via.placeholder.com/800x600'; // Example placeholder image URL
-
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>我/Who</h1>
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>By Guo Wen</h2>
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        {/* Display the placeholder image from the online source */}
-        <img src={placeholderImageUrl} alt="Placeholder" style={{ maxWidth: '100%', height: 'auto' }} />
+        {/* Display the image imported from the local folder */}
+        <img src={WhoImage} alt="我/Who" style={{ maxWidth: '100%', height: 'auto' }} />
       </div>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
-        Exploring Drama’s Power for Change </p>
+        Exploring Drama’s Power for Change
+      </p>
 
-        <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
+      <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
         Guo Wen, a Goldsmiths student, crafts contemporary dance performance to explore and unravel the intricacies of self and societal identity. Her solo works confront gender constructs, harnessing drama to inspire introspection and to engage audiences in a dialogue for change.
       </p>
 
