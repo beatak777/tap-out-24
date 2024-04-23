@@ -26,7 +26,7 @@ const FullProgramme = () => {
     { 
       title: 'Energize, Revitalize, Lobotomize', 
       path: '/energiserevitaliselobotomise', 
-      imageUrl: 'URL_TO_ENERGIZE_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/EternalImage.1ef5ef49.jpg' 
     },
     { 
       title: 'F*ck You!', 
@@ -61,7 +61,7 @@ const FullProgramme = () => {
     { 
       title: 'Feast Beast', 
       path: '/feastbeast', 
-      imageUrl: 'URL_TO_FEAST_BEAST_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FeastImage.f851c772.png' 
     },
     { 
       title: 'The Death of an Idealist', 
