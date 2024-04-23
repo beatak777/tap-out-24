@@ -1,5 +1,5 @@
 import React from 'react';
-// import IdealistImage from '../../../assets/posters/IdealistImage.png'; // Import the image
+import IdealistImage from '../../../assets/posters/IdealistImage.png'; 
 
 const DeathOfAnIdealist = () => {
   return (

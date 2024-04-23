@@ -39,6 +39,13 @@ h1 {
 h1, h2 {
   color: rgb(235, 121, 130) !important;
 }
+
+p {
+  /* color: rgb(221, 63, 76); */
+  color: rgb(235, 121, 130);
+  /* color: #dde099 !important; */
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -85,8 +92,3 @@ button:focus-visible {
   background-color:#931a21
 }
 
-p {
-  /* color: rgb(221, 63, 76); */
-  color: rgb(235, 121, 130);
-  /* color: #dde099 !important; */
-}
