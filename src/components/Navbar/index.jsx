@@ -48,7 +48,7 @@ function MyNav() {
   }, []); // Empty dependency array ensures effect runs only once on component mount
 
   return (
-    <Navbar expand="lg" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <Navbar expand="lg" className="navbar navbar-expand-lg navbar-light bg-red fixed-top">
       <Container className="d-flex flex-column align-items-center">
         <Navbar.Brand href="#">TAP OUT '24</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -58,7 +58,7 @@ function MyNav() {
             <Nav.Link href="./about">About</Nav.Link>
             <Nav.Link href="./contact">Contact</Nav.Link>
             <Nav.Link href="./tickets">Tickets</Nav.Link>
-            <NavDropdown title="Programme" id="basic-nav-dropdown">
+            <NavDropdown title="Programme" id="basic-nav-dropdown bg-dark">
               {dropdownItems.map((item, index) => (
                 <NavItemWithLogo key={index} href={item.href} title={item.title} imageUrl={item.imageUrl} />
               ))}
