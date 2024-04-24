@@ -35,7 +35,7 @@ function MyNav() {
     { href: './caseaffliction', title: 'Case Affliction', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/CaseAfflictionImage.6f627ec2.png' },
     { href: './theeutony', title: 'The Eutony', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/EutonyImage.2bc789f1.png' },
     { href: './feastbeast', title: 'Feast Beast', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FeastImage.f851c772.png' },
-    { href: './deathofanidealist', title: 'Death Of An Idealist', imageUrl: '' },
+    { href: './deathofanidealist', title: 'Death Of An Idealist', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/IdealistImage.448a9245.png' },
     { href: './threadsofeternity', title: 'Threads Of Eternity', imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNFj5i_DDDrCsPfhMEDGliKtd4SObMNv2AlnY_2nRy3pIIOS24EXwkw66q-SlAbJkPXiN1N4BLqYs76eqGuvEvSrya3Ds4Wb4WtGNe_nIFKm1B_eK2c22Dntzwlq_H_UoO9QXkUlh4HR3oc57QPLcw=w982-h1390-s-no-gm?authuser=0' },
     { href: './lovelylabels', title: 'Lovely Labels', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/LovelyLabelsImage.f017caf6.png' },
   ];

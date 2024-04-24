@@ -66,7 +66,7 @@ const FullProgramme = () => {
     { 
       title: 'The Death of an Idealist', 
       path: '/deathofanidealist', 
-      imageUrl: 'URL_TO_DEATH_IDEALIST_IMAGE' 
+      imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/IdealistImage.448a9245.png' 
     },
     { 
       title: 'Threads of Eternity', 
