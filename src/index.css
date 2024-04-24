@@ -111,3 +111,8 @@ button:focus-visible {
   --bs-btn-active-bg: #fff !important;
 
 } 
+
+
+.dropdown-menu {
+--bs-dropdown-link-active-bg: #6c757d !important;
+}
