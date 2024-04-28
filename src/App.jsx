@@ -8,7 +8,7 @@ import TheWake from './components/Pages/Shows/TheWake'
 import Symposium from './components/Pages/Shows/Symposium';
 import TheConvo from './components/Pages/Shows/TheConvo'
 import BoysAndToys from './components/Pages/Shows/BoysAndToys';
-import EnergiseRevitaliseLobotomise from './components/Pages/Shows/EnergiseRevitaliseLobotomise';
+import EnergiseRevitaliseLobotomise from './components/Pages/Shows/IsSheForReal';
 import Fckyou from './components/Pages/Shows/Fckyou';
 import Frustration from './components/Pages/Shows/Frustration';
 import BlueBottle from './components/Pages/Shows/BlueBottle'
@@ -20,6 +20,7 @@ import ThreadsOfEternity from './components/Pages/Shows/ThreadsOfEternity';
 import LovelyLabels from './components/Pages/Shows/LovelyLabels';
 import FullProgramme from './components/Pages/Shows/FullProgramme';
 import TheEutony from './components/Pages/Shows/TheEutony';
+import IsSheForReal from './components/Pages/Shows/IsSheForReal';
 
 
 
@@ -41,7 +42,7 @@ function App() {
         <Route path='/symposium' element={<Symposium />} />
         <Route path='/theconvo' element={<TheConvo />} />
         <Route path='/boysandtoys' element={<BoysAndToys />} />
-        <Route path='/energiserevitaliselobotomise' element={<EnergiseRevitaliseLobotomise />} />
+        <Route path='/issheforreal' element={<IsSheForReal />} />
         <Route path='/fckyou' element={<Fckyou />} />
         <Route path='/frustration' element={<Frustration />} />
       <Route path='/bluebottle' element={<BlueBottle />} />

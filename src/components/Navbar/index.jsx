@@ -27,7 +27,7 @@ function MyNav() {
     { href: './symposium', title: 'Symposium', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/SymposiumImage.1953acf2.png' },
     { href: './theconvo', title: 'The Convo', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/TheConvoImage.e908d68d.png' },
     { href: './boysandtoys', title: 'Boys + Toys', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BoysAndToysImage.19084753.png' },
-    { href: './energiserevitaliselobotomise', title: 'Energise, Revitalise, Lobotomise', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/EternalImage.1ef5ef49.jpg' },
+    { href: './issheforreal', title: 'Is She For Real?', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/EternalImage.1ef5ef49.jpg' },
     { href: './frustration', title: 'Frustration', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FrustrationImage.856c4f9e.png' },
     { href: './bluebottle', title: 'Blue Bottle', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BlueBottleImage.9d0fd037.png' },
     { href: './fckyou', title: 'F*ck You!', imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/FuckYouImage.a071790b.png' },

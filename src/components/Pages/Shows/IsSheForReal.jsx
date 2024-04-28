@@ -1,10 +1,10 @@
 import React from 'react';
 import EternalImage from '../../../assets/posters/EternalImage.jpg'; 
 
-const EnergiseRevitaliseLobotomise = () => {
+const IsSheForReal = () => {
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
-      <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>Energized, Revitalized, Lobotomized</h1>
+      <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>Is She For Real?</h1>
       <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>By Eternal Inferno</h2>
 
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
@@ -27,4 +27,4 @@ const EnergiseRevitaliseLobotomise = () => {
   );
 };
 
-export default EnergiseRevitaliseLobotomise;
+export default IsSheForReal;

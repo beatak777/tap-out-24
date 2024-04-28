@@ -24,8 +24,8 @@ const FullProgramme = () => {
       imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/BoysAndToysImage.19084753.png' 
     },
     { 
-      title: 'Energize, Revitalize, Lobotomize', 
-      path: '/energiserevitaliselobotomise', 
+      title: 'Is She For Real?', 
+      path: '/issheforreal', 
       imageUrl: 'https://tapoutgoldsmiths.netlify.app/assets/EternalImage.1ef5ef49.jpg' 
     },
     { 
