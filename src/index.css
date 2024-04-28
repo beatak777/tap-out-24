@@ -37,12 +37,12 @@ h1 {
  
 }
 h1, h2 {
-  color: #ad8330 !important;
+  color: #b27409!important;
 }
 
 p {
   /* color: rgb(221, 63, 76); */
-  color: #ad8330 !important;
+  color: #b27409 !important;
   /* color: #dde099 !important; */
 }
 
@@ -82,7 +82,7 @@ button:focus-visible {
 
 /* Adjust background color to black */
 .navbar {
-  background-color: rgb(171, 149, 64) !important; /* Use !important to override other background color settings */
+  background-color: #b27409 !important; /* Use !important to override other background color settings */
 }
 
 
@@ -94,7 +94,7 @@ button:focus-visible {
 
 .dropdown-menu.show {
 
-  background-color: rgb(171, 149, 64) !important;;
+  background-color: #b27409!important;;
 }
 
 
