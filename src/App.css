@@ -1,14 +1,14 @@
 /* Apply mobile-first approach */
 body {
   font-family: Arial, sans-serif;
-  margin: 4;
-  padding: 4;
+  margin: 1px;
+  padding: 1px;
 }
 
 #root {
-  max-width: 1280px;
-  margin: 5px auto;
-  padding: 4rem;
+  max-width: 100%; /* Use full width */
+  margin: 0 auto;
+  padding: 2rem; /* Reduced padding */
   box-sizing: border-box; /* Ensure padding is included in the max-width */
   text-align: center;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .full-programme-container {
-  padding: 4rem;
+  padding: 2rem; /* Reduced padding */
 }
 
 .show-grid {
@@ -31,27 +31,27 @@ body {
   grid-gap: 20px; /* Spacing between grid items */
   grid-template-columns: 1fr; /* Single column by default */
 
-  /* Media query for tablets */
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+  /* Media query for small screens */
+  @media (min-width: 576px) {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for small screens */
   }
 
   /* Media query for medium screens */
-  @media (min-width: 992px) {
-    grid-template-columns: repeat(3, 1fr) !important; /* 3 columns for medium screens */
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
   }
 
   /* Media query for large screens */
-  @media (min-width: 1200px) {
-    grid-template-columns: repeat(4, 1fr) !important; /* 4 columns for large screens */
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
   }
 }
 
 .show-card {
   text-align: center;
-  padding: 1rem;
+  padding: 1rem; /* Added padding */
   border: 1px solid #0d0c0c;
-  margin-bottom: 20px; /* Add margin between show cards */
+  margin-bottom: 10px; /* Reduced margin between show cards */
 }
 
 .show-card h2 {
