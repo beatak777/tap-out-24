@@ -7,7 +7,7 @@ body {
 
 #root {
   max-width: 100%; /* Use full width */
-  margin: 0 auto;
+  margin: 45px auto;
   padding: 2rem; /* Reduced padding */
   box-sizing: border-box; /* Ensure padding is included in the max-width */
   text-align: center;
