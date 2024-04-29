@@ -14,7 +14,7 @@ const Contact = () => {
       'https://via.placeholder.com/400x400',
       'https://via.placeholder.com/400x400',
       'https://via.placeholder.com/400x400',
-      'https://via.placeholder.com/400x400',
+      'https://tapoutgoldsmiths24.com/assets/coming.66ba8a29.gif',
     ];
     setInstagramImages(images);
   };
@@ -71,7 +71,9 @@ const Contact = () => {
       <Row className="justify-content-center mt-5">
         {instagramImages.map((imageUrl, index) => (
           <Col key={index} xs={6} sm={4} md={2} className="mb-3 d-flex justify-content-center">
-            <img src={imageUrl} alt={`Instagram Post ${index}`} className="img-fluid rounded" />
+            <a href="https://www.instagram.com/tapoutfest24" target="_blank" rel="noopener noreferrer" onClick={openInstagramProfile}>
+              <img src={imageUrl} alt={`Instagram Post ${index}`} className="img-fluid rounded" />
+            </a>
           </Col>
         ))}
       </Row>
