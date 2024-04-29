@@ -62,7 +62,7 @@ const Contact = () => {
             <p>
               <strong>Address:</strong> 8 Lewisham Way, London SE14 6NW
               <br />
-              <strong>Email:</strong> tapoutgoldsmiths@gmail.com
+              <strong>Email:</strong> goldtapout24@gmail.com
             </p>
           </div>
         </Col>
