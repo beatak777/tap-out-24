@@ -8,9 +8,9 @@ body {
 #root {
   max-width: 1280px;
   margin: 10px auto;
-  padding: 4rem;
+  padding: 2rem;
   box-sizing: border-box; /* Ensure padding is included in the max-width */
-text-align: center;
+  text-align: center;
 }
 
 .read-the-docs {
@@ -43,7 +43,7 @@ text-align: center;
 
   /* Media query for large screens */
   @media (min-width: 1200px) {
-    grid-template-columns: repeat(3, 1fr); /* 4 columns for large screens */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
   }
 }
 
