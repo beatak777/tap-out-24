@@ -29,7 +29,7 @@ body {
 .show-grid {
   display: grid;
   grid-gap: 20px; /* Spacing between grid items */
-  /* grid-template-columns: 1fr; Single column by default */
+  grid-template-columns: 1fr; /* Single column by default */
 
   /* Media query for tablets */
   @media (min-width: 768px) {
