@@ -38,12 +38,12 @@ body {
 
   /* Media query for medium screens */
   @media (min-width: 992px) {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    grid-template-columns: repeat(3, 1fr) !important; /* 3 columns for medium screens */
   }
 
   /* Media query for large screens */
   @media (min-width: 1200px) {
-    grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
+    grid-template-columns: repeat(4, 1fr) !important; /* 4 columns for large screens */
   }
 }
 
