@@ -30,20 +30,6 @@ body {
   display: grid;
   grid-gap: 20px; /* Spacing between grid items */
   grid-template-columns: repeat(4, 1fr); /* 4 columns for all devices by default */
-
-  /* Media query for small screens */
-  @media (max-width: 575px) {
-    .show-grid {
-      grid-template-columns: repeat(1, 1fr); /* 1 column for smartphones */
-    }
-  }
-
-  /* Media query for larger screens */
-  @media (min-width: 576px) {
-    .show-grid {
-      grid-template-columns: repeat(4, 1fr); /* 4 columns for larger screens */
-    }
-  }
 }
 
 .show-card {
@@ -55,6 +41,17 @@ body {
 
 .show-card h2 {
   margin-bottom: 10px;
+}
+
+/* Media query for smartphones */
+@media (max-width: 767px) {
+  .show-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 column for smartphones */
+  }
+  
+  .show-card {
+    margin-bottom: 20px; /* Increased margin between cards for better spacing */
+  }
 }
 
 /* Adjust dropdown menu styles for mobile */
