@@ -29,21 +29,20 @@ body {
 .show-grid {
   display: grid;
   grid-gap: 20px; /* Spacing between grid items */
-  grid-template-columns: 1fr; /* Single column by default */
+  grid-template-columns: repeat(4, 1fr); /* 4 columns for all devices by default */
 
   /* Media query for small screens */
+  @media (max-width: 575px) {
+    .show-grid {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for smartphones */
+    }
+  }
+
+  /* Media query for larger screens */
   @media (min-width: 576px) {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for small screens */
-  }
-
-  /* Media query for medium screens */
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
-  }
-
-  /* Media query for large screens */
-  @media (min-width: 992px) {
-    grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
+    .show-grid {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns for larger screens */
+    }
   }
 }
 

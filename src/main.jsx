@@ -10,5 +10,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
     <Footer /> {/* Include the Footer component here */}
   </React.StrictMode>,
-  document.getElementById('root')
+  // document.getElementById('root')
 );
