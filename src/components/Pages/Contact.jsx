@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import MapLocationImage from '../../assets/MapLocationImage.png'; // Import the map location image
+import Image from '../../assets/insta/2.png';
 
 const Contact = () => {
   const [instagramImages, setInstagramImages] = useState([]);
@@ -13,7 +14,7 @@ const Contact = () => {
       'https://via.placeholder.com/400x400',
       'https://via.placeholder.com/400x400',
       'https://via.placeholder.com/400x400',
-      'https://via.placeholder.com/400x400',
+      'https://lh3.googleusercontent.com/pw/AP1GczOzcZZiOo829TKcoN1b9JIAK0IoHaMGx4BRZ0u6EoFN_hLeQwd70GQGAmD-yYODGv63hXDnKXNpslz9IJN6C_KpfsMPsvugapkFwDj2oxkzy-RSnuchH_9l-Df7Kum0CjT0Zm_uC3zO_kRsmCys6IQ3-I-WTKfbTMzCcu3V3VbTr60DGNTPWKkG3OLFs_NJySXTwbnDQssdTlZZ8qm0E3ZE0kZTLH7DRd2hBZQu9CM1F69v-mUEzLS1FN-CSa903xSl6Wy-Ao1KbdJsGkyhif8ihu6E1VmQm4dYwsOpcpq59KMMIlIXQSm5bVNw4ogZoSB3Al-pJIT-66j1DrOjbqeYaB7AFi6ErzpsmK_c-uZjLndAJLd5TtaDBW59JlvQVev-y8VwwhSwZ0Xk1wrYvFwAWwtftjN1YsPOUf9RktDntuAkCOEOtCUJV_jdCrMjSEOWc3QfUv0iuAyjVDm2y52chn9VU21g1h96vJRsmqnjbZH1O0hYkC2MiFh6B9BaZW6pCiu5HAJA1MvdzJ_uDU7wkDSEEY2n7bkHHLmChyW2wfe3ISo5JiPGP4iRYx9UN5tX5nH43uApkYr0ZzzX0QCremvfL-ClIBVqt13YMV4fke5tfxvF6VJ8s0LjOPIBew5Q2wGMUs_hn7r4skemLy8olyDNeQFR0t1C6hsqETsB_4yn7DNAuMRFOBKdtdaiPK3twnJTahlNMt683TPEtG0rBCyFIyOXd3-rdqRjvmAnOphnqnMW6YFDRxscjITHlD_DomXHrTTyHCiPw1HYtHOH1H0yLRldNZRPm6mY3fZpPunt6qWvNnSWzxmGNITnPA4VuN0Y9eGD7-BrlUneIhq05-Bcbm4aDkx14TxeurqQSNqyfJ8uYl7lLbYDTkt3Au5dofdQ9pEyumbzZDTbVNVr2iAoxIGKP3DQ9P1xNgdzOP_3jqnTQ1GLYPEHAZFoRQ8IEWpcw0-H6EuEoTB2XNUPEgPmpSCSQRgre5Clt7Hq4P2VnYNeybJ7Iedbr_z3EA=w852-h852-s-no-gm?authuser=0',
       'https://tapoutgoldsmiths24.com/assets/coming.66ba8a29.gif',
     ];
     setInstagramImages(images);
