@@ -23,6 +23,10 @@ const TheEutony = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         The Eutony is a collaboratively devised piece centered around a microwave to reflect moments of tension in a relationship. A microwave is a liminal space, a place where time feels distinct, and the third performer in our piece. The style we have created utilizes surrealism, symbolism, and liveness; mirroring the poetics of Kae Tempest, the experimental nature of the Land of Cards, and the fragmentary style of Melancholy Play. Covet Collective is interested in creating work that amplifies themes of intimacy, liminality, and viscerality. We use anti-logic and feeling-driven devising to create and develop characters that feel uncomfortable to witness yet relatable in nature.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Content warning:</strong> References to death, images of violence, flashing lights and loud noises.
+      </p>
     </div>
   );
 };

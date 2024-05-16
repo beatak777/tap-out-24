@@ -23,6 +23,10 @@ const CaseAffliction = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         SMB’s show entails a performance that will keep the audience on edge. Fully immersing them into an environment that possesses a terrifying unknown, this – unpredictable – performance will keep the audience guessing. Predominantly, this performance is influenced by the practices and methodologies of Antonin Artaud in conflation with Lovecraftian aspects. These influences culminate into a performance that entails gothic horror that may stimulate paranoia within oneself. SMB have been deeply passionate about Antonin Artaud’s methodologies from the exposition of the performance-making process and wish to continue pursuing this avenue of creating a stimulating and immersive performance further.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Content warning:</strong> Contains graphic imagery, loud sounds, haze and bright lights, potential jump scares and water splash, and references to violence and death.
+      </p>
     </div>
   );
 };

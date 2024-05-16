@@ -24,6 +24,10 @@ const LovelyLabels = () => {
         Would you want to be a painfully single agoraphobic playwright? Oscar certainly doesn’t. So, he joins Lovely Labels, a subscription service which offers its members ‘lovely’ labels they can make a reality with positive thinking. Oscar finds money, romance, and happiness, but his positive labels quickly become negative causing dangerous behaviours that seriously threaten his wellbeing, as his contract may last a hell of a long time. Oliver Ferman’s black comedy is loosely inspired by Dr Faustus by Christopher Marlowe, whose titular character receives short-lived powers in exchange for his soul.
 
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Content warning:</strong> Contains scenes of simulated drug use, suicidal ideation, and frequent references to mental health conditions which are portrayed stereotypically.
+      </p>
     </div>
   );
 };

@@ -23,6 +23,10 @@ const BoysAndToys = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         Boys & Toys invites you to take an adventure to the forest of fairies, the dingy bedroom of a bent bachelor… and the clap clinic. Part fairytale storytelling, part puppetry and full of nonsense, Boys & Toys is a cut up of short and sweet scenes taking you through modern gay life with charm, whimsy and a whole lot of magic. Written and performed by Goldsmiths’ ditsiest pixie, David Sashin, whose practice is rooted in play, queer liberation and the absurd, come and party in the forest with him. 
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Content warning:</strong> Reference to drugs, STI’s and you might get a flower thrown in your face 🧚🌷
+      </p>
     </div>
   );
 };

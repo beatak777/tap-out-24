@@ -23,6 +23,10 @@ const IsSheForReal = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         Eternal Inferno sets out to explore the commodification and objectification of the female body using a combination of surrealism and radical comedy. Throughout the process, we have engaged with a plethora of theatrical forms such as physical theatre, power dynamics, and experimental language. We aim to ask questions of the things that were taken from us and that continue to be taken throughout history. Utilizing our characterisation and physicality, we will emulate poignant eras and archetypes which have shaped the way women are simultaneously exploited and censored, subverting the canonical narrative and defining our own stories.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Content warning:</strong> References to violence, mild threat and misandry
+      </p>
     </div>
   );
 };

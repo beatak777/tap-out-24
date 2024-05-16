@@ -27,7 +27,7 @@ const TheWake = () => {
       </p>
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
-        <strong>Content warning:</strong> The Wake contains themes of loss and death, use of haze.
+        <strong>Content warning:</strong> Contains themes of loss and death, use of haze and flashing lights.
       </p>
     </div>
   );
