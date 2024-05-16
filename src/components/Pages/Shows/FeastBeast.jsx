@@ -23,6 +23,10 @@ const FeastBeast = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         Feast Beast is a boundary-breaking piece that creates the possibility of touching people's hearts through immersive interaction between actors and audience. This piece by Call for Anatomy uses sound and images to create a visual aesthetic hinting at a form of disturb or violence not suitable for all audiences, through a subtle yet aggressive style.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Content warning:</strong> Contains violence, animal cruelty, blood and loud noise.
+      </p>
     </div>
   );
 };

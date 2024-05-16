@@ -14,7 +14,7 @@ const About = () => {
         <div className="col-md-8 offset-md-2">
           <h1 className="text-center mb-4">TAPOUT'24</h1>
           <p style={paragraphStyle}>
-            Tap Out Festival is an annual showcase that celebrates the culmination of the Goldsmiths Theatre & Performance Degree program. The festival highlights the creative achievements and talents of final year students, presenting a diverse range of innovative and thought-provoking performances.
+            Tap Out Festival is our annual showcase that celebrates the culmination of the Goldsmiths Theatre & Performance Degree and Performance, Politics and Society programs. The festival highlights the creative achievements and talents of final year students, presenting a diverse range of innovative and thought-provoking performances.
           </p>
           <p style={paragraphStyle}>
             As part of their degree, students engage in an intensive exploration of theatre-making, guided by a dynamic and diverse team of tutors. The programme is designed to nurture radical theatre-makers and thinkers, fostering adventurous and hands-on approaches to performance art.
@@ -28,6 +28,12 @@ const About = () => {
           <p style={paragraphStyle}>
             The BA Drama and Theatre Arts programme & The BA Drama Performance, Politics and Society programme at Goldsmiths jointly aim to cultivate bold and versatile creatives who are socially, culturally, and politically engaged. Graduates emerge as complete theatre makers, ready to embark on their professional journeys in the performing arts industry.
           </p>
+
+          <h1 className="text-center mb-4">SPECIAL THANKS TO:</h1>
+          <p style={paragraphStyle}>
+          Special thank you to our amazing tutors Alexa Reid, Marie-Gabrielle Rotie, Abigail Conway; to our tech tutors Chloe Kenward, Patrick Furness, Emily Mead, Molly Syrett, Nao Nagai; to our marketing tutors Adrian de La Court, Ashley Evenson; to our photographer Keiko Ikeuchi; to our  programming team Martha Stokes, June-Lallah Romantif and Rosanna Pike; to our technical coordinators Emily West, Joshua Silvani, Marks Zubulis and lastly to our marketing team Sofia Natoli, Francesca Short and Beata Konya.
+          </p>
+
         </div>
       </div>
     </div>
