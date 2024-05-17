@@ -27,6 +27,8 @@ const CaseAffliction = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Content warning:</strong> Contains graphic imagery, loud sounds, haze and bright lights, potential jump scares and water splash, and references to violence and death.
       </p>
+
+      
     </div>
   );
 };
