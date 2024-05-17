@@ -72,6 +72,9 @@ Yahan Xue,
 Theatre and Performance Staff at Goldsmiths University,
 The Drama and Theatre Arts and PPS Class of ‘24
 
+ <br />
+<br />
+ <strong>Created by:</strong> Beáta Kónya 
 
       </p>
       
