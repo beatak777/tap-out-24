@@ -27,6 +27,13 @@ const TheEutony = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Content warning:</strong> References to death, images of violence, flashing lights and loud noises.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Performers:</strong> <br /> Grace Lloyd <br /> Kya Madan<br />
+<strong>Director:</strong> Al Hawkins <br />
+<strong>Tech:</strong>Al Hawkins and Josh Silvani
+      </p>
+      
     </div>
   );
 };
