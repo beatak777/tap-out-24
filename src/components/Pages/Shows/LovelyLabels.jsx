@@ -28,6 +28,34 @@ const LovelyLabels = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Content warning:</strong> Contains scenes of simulated drug use, suicidal ideation, and frequent references to mental health conditions which are portrayed stereotypically.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Cast:</strong> <br />
+        Oscar Jones/Dr Marlowe - Oliver Ferman <br />
+Graham - Gary Ferman <br />
+Lovely Labels members: <br />
+Danielle Bradford <br />
+Alix Hunnam <br />
+<br />
+
+<strong>Written by:</strong> 
+Oliver Ferman
+
+ <br />
+ <br />
+<strong>Edited by: </strong> Beata Konya <br />
+<br />
+        <strong>Special thanks to:</strong> <br />
+        Beata Konya,
+Maja Nowakowska,
+Jonathan Ferman,
+
+Alexa Reid, Abigail Conway, Marie-Gabrielle Rotie,
+
+The Theatre and Performance staff at Goldsmiths University,
+
+The Drama and Theatre Arts and PPS class of 2024
+      </p>
     </div>
   );
 };

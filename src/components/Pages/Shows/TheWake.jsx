@@ -29,6 +29,19 @@ const TheWake = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Content warning:</strong> Contains themes of loss and death, use of haze and flashing lights.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Director (text):</strong>  Martha Cosgrove <br />
+<strong>Movement director:</strong> Luna Laurenti <br />
+<strong> Choreographer: </strong> Martina Bizzarri <br />
+
+<strong>Performers:</strong> Luna Laurenti, Martina Bizzarri, Martha Stokes, Jennifer Howe <br />
+
+<strong>Set design:</strong> Francesca Short <br />
+<strong>Costume design:</strong> Josh Silvani <br />
+<strong>Sound design: </strong> Maddy Xuaner Shan <br />
+<strong>Lighting design:</strong> Martha Cosgrove
+      </p>
     </div>
   );
 };

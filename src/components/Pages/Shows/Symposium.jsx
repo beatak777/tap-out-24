@@ -25,6 +25,17 @@ const Symposium = () => {
         <br /><br />
         Symposium is a theatrical experiment in search of what ‘meaning’ means and what constitutes the contemporary. Using postmodern techniques of pastiche to form an absurd narrative through time, we present the intersections of the cultural landscape through popular culture references. Symposium speaks to Frederic Jameson's notion of postmodernist ‘nostalgia,’ “Jameson calls this the longing to return to a ‘world of darkness that our modern age has lost, where the gap between worlds and things disappears and existence unfolds before us.” Symposium explicitly jibs society's preoccupation with recycling the past and its fear of looking forward, perhaps because the future screams of horror, but we want to answer the question of how to make new art in the flexible language of the past.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
+      <strong>Performers: </strong> <br />
+       Lola Blackman <br /> Amelie Asha-Johnson <br /> Freddie McGovern <br /> Ariela Vine <br />
+
+
+
+      <strong>Director: </strong> <br />
+      Anouska Manion
+      </p>
+
     </div>
   );
 };

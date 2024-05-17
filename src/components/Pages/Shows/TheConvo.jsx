@@ -27,6 +27,14 @@ const TheConvo = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         In this witfully heart-warming play, Lyric, Jasmine, and Maya unite to share their diverse experiences, celebrating sisterhood, stereotype breaking, and cultural heritage. Through raw conversation, storytelling, and authentic connection, their voices resonate unapologetically. Inspired by Ntozake Shange’s “For Colored Girls”, Ryan Calais Cameron’s “For Black Boys”, and dialogues/speeches by Nikki Giovanni, James Baldwin, Toni Morrison, Maya Angelou, and Tupac Shakur, they incorporate hip-hop culture, dance theater, and spoken word in their conversation-based performance.
       </p>
+
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+      <strong>Devised and performed by:</strong>  <br />
+      June-Lallah Romatif <br /> Leanne Baza <br /> Brianna Williams 
+    
+      
+      </p>
     </div>
   );
 };

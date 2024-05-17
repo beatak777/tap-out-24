@@ -28,7 +28,12 @@ const CaseAffliction = () => {
         <strong>Content warning:</strong> Contains graphic imagery, loud sounds, haze and bright lights, potential jump scares and water splash, and references to violence and death.
       </p>
 
-      
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Devised and performed by:</strong>  Emily West and Marks Zubulis
+        <br />
+
+        <strong> Sound design by:</strong> Marks Zubulis
+      </p>
     </div>
   );
 };

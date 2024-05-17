@@ -22,6 +22,59 @@ const ThreadsOfEternity = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Content warning:</strong> Contains scenes depicting hanging and sensitive topics such as miscarriage.
       </p>
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Cast:</strong>  <br />
+        
+	 Ilona - Beáta Kónya  <br />
+ First Memory Lover - Herut Yona  <br />
+Second Memory Lover	- Sharonjot Mahi <br />
+Third Memory Lover	- Edgár Varga <br />
+Narrator	- Dominic Canokema <br />
+<br />
+<strong>Camera Crew:</strong> <br />
+Viktória Szántó <br />
+Tímea Nagy <br />
+Oliver Ferman <br />
+Sungwon Jo <br />
+<br />
+<strong>Musicians:</strong> <br />
+Pappne Szeles Timea <br />
+Boaz Yona & Ronen Yona <br />
+<br />
+
+<strong>Special thanks to:</strong> <br />
+Alexa Reid,
+Abigail Conway,
+Marie-Gabrielle Roti,
+Philippa Burt,
+The Yona Family,
+Orr Rizenman,
+Barbara Murvai,
+Dóra Köleseri,
+Péter Noblet,
+Viktória Gulyás,
+Rebeka Kiss,
+Kerona Campbell,
+Monika Keller,
+Jr. János Kónya,
+Éva Irén Györgyfi,
+Rozália Lengyelné Sánor,
+Natália Bakos,
+Kerona Campbell,
+Viktória Szávai,
+Mohamad Ali Khalil,
+Csenge Horváth,
+László Simon,
+Izabella Bagi,
+Rachel Glassman,
+Yue Tang,
+Yahan Xue,
+Theatre and Performance Staff at Goldsmiths University,
+The Drama and Theatre Arts and PPS Class of ‘24
+
+
+      </p>
+      
     </div>
   );
 };

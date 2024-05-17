@@ -26,7 +26,23 @@ const BlueBottle = () => {
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Content warning:</strong> Contains strong language, addiction, references to death, grief and sex.
+
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
+      <strong>Performers:</strong>  <br />
+      Sofia Natoli as Rosemary <br />
+
+Nate Leather as Indie <br />
+
+<strong>Writer:</strong> Nate Leather <br />
+
+<strong>Co-directors:</strong>
+ Nate Leather and Sofia Natoli <br />
+
+<strong>Intimacy coordinator: </strong>Intimacy coordinator: Luna Laurenti <br />
+      </p>
+      
     </div>
   );
 };

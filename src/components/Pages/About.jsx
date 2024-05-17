@@ -31,7 +31,7 @@ const About = () => {
 
           <h1 className="text-center mb-4">SPECIAL THANKS TO:</h1>
           <p style={paragraphStyle}>
-          We would like to express special thanks for all the contributions of our amazing tutors, Alexa Reid, Marie-Gabrielle Rotie, Abigail Conway; to our tech tutors Chloe Kenward, Patrick Furness, Emily Mead, Molly Syrett, Nao Nagai; to our marketing tutors Adrian de La Court, Ashley Evenson; to our photographer Keiko Ikeuchi; to our  programming team Martha Stokes, June-Lallah Romantif and Rosanna Pike; to our technical coordinators Emily West, Joshua Silvani, Marks Zubulis and lastly to our marketing team Sofia Natoli, Francesca Short and Beata Konya.
+          We would like to express special thanks for all the contributions of our amazing tutors, Alexa Reid, Marie-Gabrielle Rotie, Abigail Conway; to our tech tutors Chloe Kenward, Patrick Furness, Emily Mead, Molly Syrett, Nao Nagai; to our marketing tutors Adrian de La Court, Ashley Evenson; to our photographer Keiko Ikeuchi; to our  programming team Martha Stokes, June-Lallah Romatif and Rosanna Pike; to our technical coordinators Emily West, Joshua Silvani, Marks Zubulis and lastly to our marketing team Sofia Natoli, Francesca Short and Beata Konya.
           </p>
 
         </div>

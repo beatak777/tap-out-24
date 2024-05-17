@@ -23,6 +23,15 @@ const Fckyou = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
         Jess and Mia have been in a toxic relationship for 6 months. Jess, realizing that she has been cheated on the night before, begins to plan her revenge. Bradford and Hunnam have created naturalistic work fusing elements of comedy while juggling some sensitive topics regarding dysfunctional relationships, inspired by Fleabag, Chewing Gum, Skins, That Face, Lungs, and The House of Bernarda Alba.
       </p>
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6' }}>
+  <strong> Performers:</strong> <br />Alix Hunnam as Mia <br />
+Danielle Bradford as Jess <br />
+
+
+  <strong>Written and directed by: </strong>  Alix Hunnam and Danielle Bradford
+      </p>
+
     </div>
   );
 };
