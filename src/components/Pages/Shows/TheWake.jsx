@@ -32,14 +32,21 @@ const TheWake = () => {
 
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Director (text):</strong>  Martha Cosgrove <br />
+        <br />
 <strong>Movement director:</strong> Luna Laurenti <br />
+<br />
 <strong> Choreographer: </strong> Martina Bizzarri <br />
+<br />
 
-<strong>Performers:</strong> Luna Laurenti, Martina Bizzarri, Martha Stokes, Jennifer Howe <br />
-
-<strong>Set design:</strong> Francesca Short <br />
+<strong>Performers:</strong> <br /> 
+<br />Luna Laurenti <br /> Martina Bizzarri <br /> Martha Stokes <br /> Jennifer Howe <br />
+<br />
+<strong>Set design:</strong> Francesca Short <br /> 
+<br />
 <strong>Costume design:</strong> Josh Silvani <br />
+<br />
 <strong>Sound design: </strong> Maddy Xuaner Shan <br />
+<br />
 <strong>Lighting design:</strong> Martha Cosgrove
       </p>
     </div>
