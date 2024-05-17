@@ -27,6 +27,20 @@ const IsSheForReal = () => {
       <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
         <strong>Content warning:</strong> References to violence, mild threat and misandry
       </p>
+
+
+      <p style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}>
+        <strong>Oriel Evans:</strong> performer, writer, set and costume designer, sound designer <br />
+
+<strong>Rosanna Pike:</strong> performer, writer, director <br />
+
+<strong>Sound tech:</strong> Nate Leather <br />
+<strong>Lighting tech:</strong> Yujie Wang <br /> 
+<strong>Puppeteer:</strong> Francesca Short <br />
+<strong>Stage hand </strong> Rosy Wen <br />
+
+      </p>
+   
     </div>
   );
 };
