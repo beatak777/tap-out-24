@@ -34,12 +34,13 @@ const BlueBottle = () => {
       Sofia Natoli as Rosemary <br />
 
 Nate Leather as Indie <br />
+<br />
 
 <strong>Writer:</strong> Nate Leather <br />
-
+<br />
 <strong>Co-directors:</strong>
  Nate Leather and Sofia Natoli <br />
-
+<br />
 <strong>Intimacy coordinator: </strong>Luna Laurenti <br />
       </p>
       
