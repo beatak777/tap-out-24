@@ -40,7 +40,7 @@ Nate Leather as Indie <br />
 <strong>Co-directors:</strong>
  Nate Leather and Sofia Natoli <br />
 
-<strong>Intimacy coordinator: </strong>Intimacy coordinator: Luna Laurenti <br />
+<strong>Intimacy coordinator: </strong>Luna Laurenti <br />
       </p>
       
     </div>
